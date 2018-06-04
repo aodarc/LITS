@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>
+<h1>Hello people!</h1>
+<h2>Current time: {{now}}</h2>
+
+<ul>
+	{% for user in users %}
+		<li>{{user.last_name}}</li>
+	{% endfor %}
+</ul>
+</body>
+</html>
